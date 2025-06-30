@@ -1,0 +1,8 @@
+say "Hello!"
+make num = 10
+add num, 20
+show num
+
+call "log" "From JS"
+call "sum" 5 3
+call "now"

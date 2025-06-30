@@ -1,0 +1,7 @@
+let x = 1;
+
+if x == 1 {
+    say "gya"
+}
+
+test name { hi }

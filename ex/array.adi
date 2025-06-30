@@ -1,0 +1,11 @@
+func greet name
+  say "Hello"
+  say name
+end
+
+greet "Adi"
+
+make arr = [1, 2, 3]
+push arr, 4
+show arr[2]
+show arr.length

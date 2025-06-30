@@ -1,0 +1,23 @@
+{
+  "name": "adiplusplus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js hello.adi",
+    "adi": "node adi.js"
+  },
+  "bin": {
+    "adi": "./adi.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "discord.js": "^14.20.0",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.0",
+    "node-fetch": "^3.3.2",
+    "unzipper": "^0.12.3",
+    "ws": "^8.18.2"
+  }
+}

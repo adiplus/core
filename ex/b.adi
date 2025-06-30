@@ -1,0 +1,6 @@
+make user = {
+  name = "Adi",
+  age = 17
+}
+
+show user.name

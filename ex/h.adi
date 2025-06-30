@@ -1,0 +1,28 @@
+fn greet(name) {
+  say "hello"
+  say name
+}
+
+greet("Adi")
+
+let no = no
+
+if no == "value" {
+    say "no"
+} else {
+    say "police stfu"
+}
+
+let PI = 3.14
+
+if PI == 3 { 
+   say "true" 
+} else { 
+   say "false" 
+}
+
+if (PI == 3) { 
+   say "true" 
+} else { 
+   say "false" 
+}

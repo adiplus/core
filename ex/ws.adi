@@ -1,0 +1,18 @@
+make sock = websocket()
+sock.listen 3000
+
+on sock.connect msg
+  say "⚡ New client connected!"
+end
+
+on sock.message msg
+  say "📩 Got from client:"
+  say msg
+
+  sock.send "🧠 You said:"
+  sock.send msg
+end
+
+on sock.close msg
+  say "💤 A client disconnected!"
+end

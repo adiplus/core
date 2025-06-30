@@ -1,0 +1,6 @@
+import "web"
+
+call web.listen 3000
+
+call web.route "/" "<h1>Welcome to .adi Web!</h1>"
+call web.route "/hello" "<p>Hello from .adi script!</p>"

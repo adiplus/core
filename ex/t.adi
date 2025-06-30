@@ -1,0 +1,15 @@
+import "fs as file";
+import "sys as system";
+
+say "🧪 Testing AdiLang Advanced Features..."
+
+make num = 10
+add num = 5
+show num
+
+file.write "test.txt" = "It works!"
+file.read "test.txt"
+
+system.args
+
+debug
